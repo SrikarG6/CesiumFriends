@@ -23,3 +23,9 @@ var entity = viewer.entities.add({
         maximumScale : 1,
     }
 });
+
+//3D terrain
+viewer.terrainProvider = new Cesium.CesiumTerrainProvider({
+    url : 'https://assets.agi.com/stk-terrain/v1/tilesets/world/tiles',
+    requestVertexNormals : true
+});
