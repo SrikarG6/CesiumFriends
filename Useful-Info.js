@@ -13,7 +13,7 @@ viewer.clock.onTick.addEventListener(function(clock) {
   //Game code
 }
 
-//Create entity (uri is model to be render)
+//Create entity (uri is model to be render)(in sandcaslte add ../../ to begining of uri)
 var entity = viewer.entities.add({
     position : position,
     orientation : orientation,
