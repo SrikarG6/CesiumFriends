@@ -11,7 +11,7 @@ document.addEventListener('keyup', function (e){key[e.keyCode] = false;});
 //Cesium will run this some amount of time a second (game loop)
 viewer.clock.onTick.addEventListener(function(clock) {
   //Game code
-}
+});
 
 //Create entity (uri is model to be render)(in sandcaslte add ../../ to begining of uri)
 var entity = viewer.entities.add({
